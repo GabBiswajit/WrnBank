@@ -1,0 +1,17 @@
+---
+main: Biswajit\BankUI\BankUI
+name: WenBank
+version: 2.0.0
+api: 4.0.0
+Author: Biswajit
+depend:
+- EconomyAPI
+commands:
+  bank:
+    description: Bank Permission
+    permission: bankui.admin
+permissions:
+  bankui.admin:
+    description: Permission to view other players transactions
+    default: true
+...
